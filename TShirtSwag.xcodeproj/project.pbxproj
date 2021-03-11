@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01135B7B25F0D256000885E9 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01135B7A25F0D256000885E9 /* ProductCell.swift */; };
 		0165E8DF25E3C51500F37940 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0165E8DE25E3C51500F37940 /* CategoryCell.swift */; };
 		0165E8E325E3F57200F37940 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0165E8E225E3F57200F37940 /* Category.swift */; };
 		0165E8E725E3F6F100F37940 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0165E8E625E3F6F100F37940 /* DataService.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01135B7A25F0D256000885E9 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		0165E8DE25E3C51500F37940 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		0165E8E225E3F57200F37940 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		0165E8E625E3F6F100F37940 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				0165E8DE25E3C51500F37940 /* CategoryCell.swift */,
+				01135B7A25F0D256000885E9 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				01BC66B825E25D85004B9756 /* AppDelegate.swift in Sources */,
 				0165E8E725E3F6F100F37940 /* DataService.swift in Sources */,
 				01BC66BA25E25D85004B9756 /* SceneDelegate.swift in Sources */,
+				01135B7B25F0D256000885E9 /* ProductCell.swift in Sources */,
 				0165E8DF25E3C51500F37940 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
