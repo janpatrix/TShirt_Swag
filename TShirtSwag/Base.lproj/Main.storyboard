@@ -84,17 +84,17 @@
                     <navigationItem key="navigationItem" title="TSHIRT SWAG" id="WMh-ky-Cef"/>
                     <connections>
                         <outlet property="categoryTable" destination="Gvn-Zx-uKu" id="1cp-ZW-EWh"/>
-                        <segue destination="l2b-PH-mE2" kind="show" id="fco-Mu-Cay"/>
+                        <segue destination="l2b-PH-mE2" kind="show" identifier="ProductsVC" id="fco-Mu-Cay"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="805.79710144927537" y="88.392857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--ProductsVC-->
         <scene sceneID="wP2-Cl-7El">
             <objects>
-                <viewController id="l2b-PH-mE2" sceneMemberID="viewController">
+                <viewController id="l2b-PH-mE2" customClass="ProductsVC" customModule="TShirtSwag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OOL-BC-aXE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
